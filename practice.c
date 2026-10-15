@@ -39,5 +39,12 @@ int main(){
        printf("%d ",array[i]);
     }
 
+    //====================Array Initialization============
+    
+    int arr[5]={10,30,12,90,44};
+    for(int i=0;i<5;i++){
+      printf("%d ",arr[i]);
+    }
+
     return 0;
 }
